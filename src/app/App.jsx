@@ -9,6 +9,7 @@ const App = () => {
   return (
       <>
       <Navbar />
+      <h1>NavBar ends here! Onwards! there is API data!!</h1>
       <MissionList />
       <DragonList />
       <MyProfile />

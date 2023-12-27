@@ -25,7 +25,7 @@ const DragonList = () => {
         <div key={dragon.id}>
           <p>{dragon.dragon_name}</p>
           <p>{dragon.reserved ? 'Reserved' : 'Available'}</p>
-          <button onClick={() => handleReserveDragon(dragon.id)}>
+          <button className='bg-blue-100' onClick={() => handleReserveDragon(dragon.id)}>
             {dragon.reserved ? 'Cancel Reservation??' : 'Reserve Dragon'}
           </button>
           {dragon.reserved && (
